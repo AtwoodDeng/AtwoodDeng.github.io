@@ -280,6 +280,23 @@ h5, h6          { font-weight: bolder }
     clear: both;
 }
 
+.main .info{
+    color : #BBB;
+    font-size : 25px;
+    line-height: 55px;
+    font-family: arial;
+    margin-top: 15%;
+}
+
+.main .info-title{
+    margin: 10px ;
+
+    width: 20%;
+}
+.main .info-content{
+    margin: 10px ;
+}
+
 
 /*  Home/portfolio  */
 .main .work{
@@ -367,6 +384,8 @@ h5, h6          { font-weight: bolder }
     -o-background-size: cover;
     background-position: 50% 50%;
 }
+
+
 
 .work_nav{
     display: block;
