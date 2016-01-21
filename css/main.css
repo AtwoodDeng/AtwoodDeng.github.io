@@ -147,9 +147,11 @@ h5, h6          { font-weight: bolder }
     }
 
     header nav ul li{
+        height: 40px;
         display: block;
         margin-bottom: 5px;
         text-align: center;
+        padding-top:17px;
     }
 
     header nav ul li a{
