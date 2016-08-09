@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Slabo 27px', serif;
+    /*font-family: 'Slabo 27px', serif;*/
+    font-family: 'Exo 2', sans-serif;
 }
 
 p {
