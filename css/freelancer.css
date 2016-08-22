@@ -113,6 +113,7 @@ header .intro-text .name {
     /*font-family: 'Raleway', sans-serif;*/
     /*font-family: 'Titillium Web', sans-serif;*/
     font-family: 'Inconsolata', monospace;
+    src: url("/fonts/Inconsolata-Regular.ttf")
     font-size: 2em;
     font-weight: 700;
 }
@@ -137,6 +138,7 @@ header .intro-text .skills {
         /*font-family: 'Titillium Web', sans-serif;*/
         /*font-family: 'Poiret One', cursive;*/
         font-family: 'Quicksand', sans-serif;
+        src: url("/fonts/Quicksand-Regular.ttf")
     }
 }
 
