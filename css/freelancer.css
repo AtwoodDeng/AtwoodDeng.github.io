@@ -24,7 +24,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #121336;
+    color: #233142;
 }
 
 h1,
@@ -35,7 +35,8 @@ h5,
 h6 {
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
 }
 
@@ -72,16 +73,16 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #121336;
+    background-color: #233142;
 }
 
 hr.star-primary {
-    border-color: #2E6B8A;
+    border-color: #36506c;
     padding-bottom: 30px;
 }
 
 hr.star-primary:after {
-    color: #2E6B8A;
+    color: #36506c;
     background-color: #F3FAF0;
 }
 
@@ -92,8 +93,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #121336;
-    background-image: url('../img/header.png');
+    background: #233142;
+    // background-image: url('../img/header.png');
 }
 
 header .container {
@@ -112,7 +113,7 @@ header .intro-text .name {
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     /*font-family: 'Raleway', sans-serif;*/
     /*font-family: 'Titillium Web', sans-serif;*/
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Ubuntu', sans-serif;
     src: url("/fonts/Inconsolata-Regular.ttf")
     font-size: 2em;
     font-weight: 700;
@@ -159,7 +160,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 3px 0;
-        background: #EF5406;
+        background: #3DD2CC;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -173,7 +174,7 @@ header .intro-text .skills {
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
-    background-color: rgba(239,84,6,0.5);
+    background-color: #3DD2CC; // rgba(239,84,6,0.5);
 }
 
 .navbar a:focus {
@@ -206,7 +207,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #121336;
+    background: #233142;
 }
 
 section.success a,
@@ -215,7 +216,8 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2E6B8A;
+    color: #F3FAF0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 @media(max-width:767px) {
@@ -245,7 +247,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #EF5406;
+    background: #3DD2CC;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -300,8 +302,8 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #121336;
-    background: #fff;
+    color: #233142;
+    background: #3DD2CC;
 }
 
 .floating-label-form-group {
@@ -353,7 +355,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #121336;
+    color: #233142;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -370,7 +372,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2E6B8A;
+    background-color: #36506c;
     font-family: 'Josefin Slab', serif;
 }
 
@@ -380,7 +382,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #EF5406;
+    background-color: #3DD2CC;
 }
 
 .btn-social {
@@ -466,7 +468,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2E6B8A;
+    background-color: #36506c;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -476,7 +478,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2E6B8A;
+    background-color: #36506c;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -542,14 +544,14 @@ hr.caption-line {
 }
 
 .modal-body p strong{
-    color: #EF5406;
+    color: #3DD2CC;
 }
 
 .item-details {
     font-size: 20px;
 }
 .item-details strong{
-    color : #2E6B8A;
+    color : #36506c;
 }
 
 .item-details li{
@@ -557,10 +559,10 @@ hr.caption-line {
 }
 
 .about-info {
-    font-family: 'Rhodium Libre', serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .about-info strong{
-    color : #EF5406;
+    color : #3DD2CC;
 }
 footer .footer-above p {
     font-size: 28px;
