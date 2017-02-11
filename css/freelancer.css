@@ -445,6 +445,10 @@ footer .footer-below {
     box-shadow: 0px 0px 30px #555;
 }
 
+.portfolio-modal .modal-content .award {
+    box-shadow: 0px 0px 0px;
+}
+
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
